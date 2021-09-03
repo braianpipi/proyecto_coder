@@ -1,0 +1,21 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../img/fonheader.png);
+    /* background-size: cover; */
+    /* background-position: bottom; */
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+
+}
+.flotantes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
